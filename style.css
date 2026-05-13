@@ -658,14 +658,14 @@ body {
   content: "";
   position: absolute;
   width: 150px;
-  height: 1000px;
+  height: 1500px;
   background: #2c3e94;
   top: 0;
   left: 50%;
   transform: translateX(-50%) rotate(20deg);
   z-index: -1;
   margin-top: -100px;
-  margin-left: 15px;
+  margin-left: -75px;
 }
 /* FADE LAYER */
 .fade {
