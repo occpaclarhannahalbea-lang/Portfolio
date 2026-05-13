@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a class="active" href="contact.html">Contact</a>
+  </div>
+
+  <section class="contact">
+
+  <h1>Contact me</h1>
+
+  <div class="contact-container">
+
+    <!-- LEFT: INFO -->
+    <div class="contact-info">
+      <div class="info-item">
+        <img src="fb-icon.png">
+        <span>Hannah Albea</span>
+      </div>
+
+      <div class="info-item">
+        <img src="instagram.png">
+        <span>@vi.hnnhphclr</span>
+      </div>
+
+      <div class="info-item">
+        <img src="telegram.png">
+        <span>09083281453</span>
+      </div>
+
+      <div class="info-item">
+        <img src="gmail.png">
+        <span>occ.paclar.hannahalbea <br> @gmail.com</span>
+      </div>
+    </div>
+
+    <!-- CENTER: IMAGE -->
+    <div class="contact-img">
+      <img src="bea.jpg">
+    </div>
+
+    <!-- RIGHT: FORM -->
+  <form class="contact-form" id="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!'); this.reset();">
+
+  <input type="text" placeholder="Name" required>
+  
+  <input type="email" placeholder="Email" required>
+  
+  <textarea placeholder="Your message" required></textarea>
+  
+  <button type="submit">Send message</button>
+  
+
+</form>
+
+  </div>
+</section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
